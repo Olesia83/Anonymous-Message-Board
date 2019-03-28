@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  text-align:center;
+  font-family: 'Merriweather', serif;
+}
+header {
+  padding:10px;
+  font-size:25px;
+  color: #e2b203;
+}
+#main {
+  display:block;
+  justify-content:center;
+  max-width:800px;
+  margin:auto;
+}
+#submitNewThread, #boardDisplay {
+  padding:25px;
+  background-image:url('https://thumbs.dreamstime.com/b/shabby-wood-plank-grain-texture-vintage-floor-background-chic-turquoise-painted-old-wooden-board-rustic-wall-pattern-109397311.jpg');
+  min-height:500px;
+  margin:auto;
+  color: white;
+}
+#submitNewThread {
+  min-height:320px;
+}
+h2 {
+  font-size:40px;
+  text-shadow:2px 2px #336699;
+  padding:20px;
+}
+h3 {
+  color:#2d5986;
+  width: 500px;
+  background-color:#ecf2f9;
+  font-size:22px;
+  padding:5px;
+}
+h4 {
+  padding:20px;
+  font-size:20px;
+  text-shadow:2px 2px #336699;
+}
+input[type=text], input[type=submit], textarea {
+  margin:5px;
+  width: 500px;
+  height: 30px;
+  font-size:22px;
+}
+input[type=submit] {
+  width:505px;
+  height:35px;
+  background-color:#FCCB1A;
+  border: 2px outset #FCCB1A;
+  color:white;
+}
+input[type=submit]:hover {
+  background-color:#fde281;
+}
+textarea {
+  height:100px;
+}
+#reportThread input[type=submit], #deleteThread input[type=submit], #reportReply input[type=submit], #deleteReply input[type=submit] {
+  width:100px;
+  
+}
+p {
+  padding:10px;
+}
+.row {
+  display:flex;
+  padding:5px;
+}
+.replies {
+  margin-left: 50px;
+}
+
+.reply {
+  background-color:#d9e6f2;
+  border: 1px solid #9fbfdf;
+  margin: 5px;
+  padding: 5px;
+  border-radius:10px;
+}
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+  border: 2px solid #b3cce6;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color:#c6d9ec;
+  border-radius:10px;
+  color:#132639;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
